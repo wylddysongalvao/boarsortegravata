@@ -1,0 +1,43 @@
+
+#topHeader{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:70px;
+    background-color:#00873e;
+    letter-spacing: 2px;
+    cursor:pointer;
+    position:fixed;
+}
+
+#menuHeader {
+    display:flex;
+    flex-direction: row;
+    list-style:none;
+}
+
+#menuHeader li {
+    margin: 0 40px 0 0;
+    color: #FFF;
+    transition-duration: 200ms;
+    font-size: 0.75rem;
+    font-weight: 900;
+}
+
+#menuHeader li:hover {
+    color: #ffcf01;
+    text-shadow: 2px 2px #005125
+}
+
+
+#logoAciag{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url('../../Assets/logo_1.png');
+    background-size: cover;
+    position: absolute;
+    left: 45px;
+}
